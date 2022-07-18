@@ -8,7 +8,9 @@
 <div class="card-body">
     <form method="POST">
         {% csrf_token %}
-        {{form.as_p}}
+        <div class="">
+            {{form.as_p}}
+        </div>
         <input class="button" type="submit" value="login">
     </form>    
     <p>Do you have an account? <a class="button" href="{% url 'register' %}"> Register!</a></p>

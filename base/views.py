@@ -1,5 +1,3 @@
-from turtle import title
-from urllib import request
 from django.shortcuts import render
 # from django.http import HttpResponse
 from django.views.generic.list import ListView
@@ -68,12 +66,12 @@ class TaskList(LoginRequiredMixin,ListView):
         context['search_input'] = search_input
         return context 
 
-
 class TaskDetail(LoginRequiredMixin, DetailView):
     model = Task
     context_object_name = 'task'
     # overriding the template name view
     template_name = 'base/task.html'
+    
 
 class TaskCreate(LoginRequiredMixin, CreateView):
     model = Task
@@ -84,13 +82,11 @@ class TaskCreate(LoginRequiredMixin, CreateView):
     def form_valid(self, form):
         form.instance.user = self.request.user
         return super(TaskCreate, self).form_valid(form)
-
     
 class TaskUpdate(LoginRequiredMixin, UpdateView):
     model = Task
     fields = ['title', 'description', 'complete'] #'__all__'
     success_url = reverse_lazy('tasks')
-
 
 class DeleteView(LoginRequiredMixin, DeleteView):
     model = Task
