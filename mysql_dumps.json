@@ -1,0 +1,617 @@
+[
+{
+   "model": "admin.logentry",
+   "pk": 1,
+   "fields": {
+      "action_time": "2022-05-19T06:06:37.938Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Study Django View",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "base",
+      "model": "task"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 8,
+   "fields": {
+      "app_label": "base",
+      "model": "project"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 9,
+   "fields": {
+      "app_label": "base",
+      "model": "projecttask"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "2nvum73ifyflssx4szzexg2fkd9fealb",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nuOW0:ozSO8rlh8xgw0S9ousobMQpuShKgwWbWlPfRLc_13Tg",
+      "expire_date": "2022-06-10T01:11:44.430Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "3y1ngpdlwghljq1qlmfehvk39rhflyzv",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nuOa5:xLY-Ac_GyAMqBgdFjVIlqDQ9JUgh6a6EuFzvw_fcZio",
+      "expire_date": "2022-06-10T01:15:57.358Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "4iflbayr6dn4bl2iukp26pk1rrsswfdq",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nrwFA:Lw7oc5ssuVFBoXoGdYPCqxqkxSc-V4OTJ02fNlQymGY",
+      "expire_date": "2022-06-03T06:36:12.954Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "4k8mk9xqpqi7t99leiw6134xa0xtc1yn",
+   "fields": {
+      "session_data": ".eJxVjMEOwiAQRP-FsyEsWyJ49O43kIVdpGpoUtqT8d9tkx70MJd5b-atIq1LjWuXOY6sLgrU6bdLlJ_SdsAPavdJ56kt85j0ruiDdn2bWF7Xw_07qNTrti7gwLgQxA1iB-SSORne4sn5gIjJMlhDOZBw9qZ4ChaQEM8QvEX1-QLjKjeS:1nyqtE:-_QfT-DwHE7tll_om4BmR4ftDP3RQBdcmcjU1Nk2LHI",
+      "expire_date": "2022-06-22T08:18:08.644Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "flqwzt764dpzffhuaypcir4m07e5bcap",
+   "fields": {
+      "session_data": ".eJxVjMEOwiAQRP-FsyEsWyJ49O43kIVdpGpoUtqT8d9tkx70MJd5b-atIq1LjWuXOY6sLgrU6bdLlJ_SdsAPavdJ56kt85j0ruiDdn2bWF7Xw_07qNTrti7gwLgQxA1iB-SSORne4sn5gIjJMlhDOZBw9qZ4ChaQEM8QvEX1-QLjKjeS:1nyTOO:oO18XJYby4S6Sw45GbvJgv_ulxtpRy03YsF8tZ-f9WY",
+      "expire_date": "2022-06-21T07:12:44.635Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "he0gvmkh792ri57693x5s8a3mqua93t9",
+   "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln24vhDSZ8zWOv1ggPIkeKkQtydWEoBzRTz3sxbRNzWErfGS5yyuAgQp98uIT25dpAfWO-zpLmuy5RkV-RBmxznzK_r4f4dFGylr3lI1hA4RTYRsrb-bIPyKTgixewyKfA2G9jTIXAAkwev0o5uGrX4fAHuXjgG:1oDFIf:HezqrxY7yhkMC2wWnzu5D4rQ2nwFrfkFgRcUAXTMYq0",
+      "expire_date": "2022-08-01T01:11:53.089Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "j6i3gbbwlby9eoilyb4qayz7mjj2784m",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nrqj5:_NVAhGx8jz3qLHm-VcoqwVPatS3-Ny-4fem_qXjLsXU",
+      "expire_date": "2022-06-03T00:42:43.391Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "j9sgq9oc4de7oyxtnjffes9re422efxo",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nrbZF:zXFLFxR-EyENve3Y6SX9kEZzwFcPJC79jHmt5bacAKs",
+      "expire_date": "2022-06-02T08:31:33.312Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "jkhcr22qdnnvksrm69k3sk9nche3dtf4",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1ntKLc:UA7l-DS5BRLJruAaS7gODkGJH_eF2y1a5NlctnXtYKM",
+      "expire_date": "2022-06-07T02:32:36.620Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "jm3vi8jnikegypqqbyilcass5agvitjq",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nsymZ:DGTmJrANQmsxfRajxrmollgZoj4MMihZgXBTKu-Qx4o",
+      "expire_date": "2022-06-06T03:30:59.386Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "kyyj0x1o04uklc25x2ircoo7q4xbuqov",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nrxQV:FCivfSLxBeU0i0HFjqplR2GDeJB5QBtZgpdhTU_9CjY",
+      "expire_date": "2022-06-03T07:51:59.292Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "l4prcrl7go0g72cm8bbh6y9u32uzzre3",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1ntIg7:BMDkEEVW7jvB1dQRp2M7HMacKVZSmR7VBfbpjUbYzO8",
+      "expire_date": "2022-06-07T00:45:39.195Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "o6m85c7b60o1ugiomnqik6k1tj6wjm8b",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1ntKBk:3n-ITd6cnD-FXtpy4g3x-mzoEtWIo9zaz5wcd0LdfoA",
+      "expire_date": "2022-06-07T02:22:24.644Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "pi1ihi02b71qktoh7r036g194ooydprq",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nryIG:rgDrLR40zOt5a7zjqGuuBJi-MzVM9giE9X37l1XnDhc",
+      "expire_date": "2022-06-03T08:47:32.192Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "pu2ygrcie46glhft2epxu7v1ltudsrjj",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nrsDF:345a581p6TlezoL3KVRMoBzTWxMzbBDZeARX2Opm7tU",
+      "expire_date": "2022-06-03T02:17:57.099Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "rm8aqftbqta4j4agei12lzio2c4vdkez",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nt0VN:wmSacfRuTu29S5sodvUv500imfKLMOhavgZ2x2gVVkQ",
+      "expire_date": "2022-06-06T05:21:21.957Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "rmzypx5a032w32sli5i6yltlv3cvu97o",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nwbxV:IyShrQa2qXo43vIfrUtFjA4nbQ12wvN61D7T65CBwtQ",
+      "expire_date": "2022-06-16T03:57:17.699Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "s5xmrm94h761o1wo3bllym783vkyxnrr",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nvZGa:wK2hWYuH2yNdA8MUjNPRbUtPdmna3avztYU7E_NO5qI",
+      "expire_date": "2022-06-13T06:52:40.660Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "tgot6sa7a9ekcl15cbfq9nblm4oy4idv",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1ntMPt:XhuPwNNXuSSt4A3z1U1Tt3uMK7pEveSUefZt6DcWa_A",
+      "expire_date": "2022-06-07T04:45:09.500Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "x6ioy7icp7anjwfejj6sozd0ixfbomjh",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nswWT:A41CSvXssVaATwr-zHa37Tx0vPWzdpEfxNi9k6xfqwE",
+      "expire_date": "2022-06-06T01:06:13.885Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "xgrbgsl36r8esotrexnju5salw5r7vhx",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nvZED:yshSRTWSfp9IuCloNsV1YLthQUy36QQReIMhCORvTjc",
+      "expire_date": "2022-06-13T06:50:13.867Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "xr2omaoadj78srnpkt4j5m295wicaq6a",
+   "fields": {
+      "session_data": ".eJxVjMEOwiAQRP-FsyEsWyJ49O43kIVdpGpoUtqT8d9tkx70MJd5b-atIq1LjWuXOY6sLgrU6bdLlJ_SdsAPavdJ56kt85j0ruiDdn2bWF7Xw_07qNTrti7gwLgQxA1iB-SSORne4sn5gIjJMlhDOZBw9qZ4ChaQEM8QvEX1-QLjKjeS:1nyTNU:ghmF9FVD45ekfHRo_8OklkTY7mP_HZScm0Q2LZBq9PU",
+      "expire_date": "2022-06-21T07:11:48.293Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "yiu0xe69gymmg9z7a5xq3d9ara10g99l",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nuOVk:Vj9e_5O9sGRjVOr-2DbUvOfoiKq0OBsvlPLSXNOZ_RU",
+      "expire_date": "2022-06-10T01:11:28.244Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "zm6ko9n5cvgitwkx7lnsax130t6s5mju",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nrvmN:IjVTE9CGv32R839h9Gsj_ehi8Vut_AVTNkkj2FniMHw",
+      "expire_date": "2022-06-03T06:06:27.799Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "zxmkuflgpr6pd627ximj93cu5jabmgo4",
+   "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpih-DQsTtnQIltCm0FEoGp6t0LEkO7_vfef5subevQbUWXbhRzNWAuv1tO_NTpAPJI0322PE_rMmZ7KPakxbaz6Ot2un8HQyrDXpMP4BF97ULQSqAiQgTOPhL1MQO7oH0FwuJkp5E4aEwBG2VqsAbz-QKq7zbh:1nrzIE:iyAYi5WsRgzsaeGKViATA6emIQMVLm5Aw9BNFozfB1U",
+      "expire_date": "2022-06-03T09:51:34.505Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 2,
+   "fields": {
+      "user": 1,
+      "title": "Study Django Forms and Form Model",
+      "description": "I already completed this!",
+      "complete": true,
+      "created": "2022-05-19T06:07:08.168Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 3,
+   "fields": {
+      "user": 1,
+      "title": "Study Django Model API",
+      "description": "https://docs.djangoproject.com/en/4.0/ref/models/",
+      "complete": false,
+      "created": "2022-05-19T06:07:41.617Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 4,
+   "fields": {
+      "user": 1,
+      "title": "Study Django Templates and Template Concepts",
+      "description": "",
+      "complete": true,
+      "created": "2022-05-19T06:07:51.063Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 5,
+   "fields": {
+      "user": 1,
+      "title": "Study Django Static Files Handling",
+      "description": "",
+      "complete": true,
+      "created": "2022-05-19T06:08:54.075Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 8,
+   "fields": {
+      "user": 1,
+      "title": "Study Git commands",
+      "description": "",
+      "complete": true,
+      "created": "2022-05-19T06:10:07.687Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 9,
+   "fields": {
+      "user": 1,
+      "title": "Study and review MYSQL",
+      "description": "",
+      "complete": false,
+      "created": "2022-05-19T06:10:16.854Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 11,
+   "fields": {
+      "user": 1,
+      "title": "Study Django Templates",
+      "description": "",
+      "complete": true,
+      "created": "2022-05-19T06:52:39.192Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 12,
+   "fields": {
+      "user": 1,
+      "title": "Study Django urls",
+      "description": "",
+      "complete": true,
+      "created": "2022-05-19T06:53:00.048Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 15,
+   "fields": {
+      "user": 1,
+      "title": "Study Djang QuerySet",
+      "description": "",
+      "complete": false,
+      "created": "2022-05-20T01:04:15.864Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 18,
+   "fields": {
+      "user": 1,
+      "title": "https://docs.djangoproject.com/en/4.0/howto/",
+      "description": "",
+      "complete": true,
+      "created": "2022-05-20T07:53:00.054Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 19,
+   "fields": {
+      "user": 1,
+      "title": "Review Python OOP, class properties, and other decorators",
+      "description": "",
+      "complete": false,
+      "created": "2022-05-20T08:48:01.451Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 21,
+   "fields": {
+      "user": 1,
+      "title": "Learn on how to modify the input from form Method POST",
+      "description": "",
+      "complete": true,
+      "created": "2022-05-23T03:35:12.124Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 24,
+   "fields": {
+      "user": 1,
+      "title": "make blog app asynchronous",
+      "description": "",
+      "complete": false,
+      "created": "2022-05-24T02:32:51.045Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 27,
+   "fields": {
+      "user": 1,
+      "title": "JWT Authentication",
+      "description": "Study on how to authenticate user using JWT Token",
+      "complete": false,
+      "created": "2022-06-02T03:57:34.989Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 28,
+   "fields": {
+      "user": 1,
+      "title": "Study CSS And Bootstrap",
+      "description": "",
+      "complete": false,
+      "created": "2022-06-07T07:23:50.198Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 29,
+   "fields": {
+      "user": 1,
+      "title": "Learn HTTP Requests",
+      "description": "https://docs.djangoproject.com/en/4.0/topics/http/",
+      "complete": false,
+      "created": "2022-06-08T08:18:22.472Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 30,
+   "fields": {
+      "user": 1,
+      "title": "Django Class-Based View",
+      "description": "https://docs.djangoproject.com/en/4.0/topics/class-based-views/intro/",
+      "complete": false,
+      "created": "2022-06-08T08:41:20.861Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 31,
+   "fields": {
+      "user": 1,
+      "title": "Box Model In Web Layout",
+      "description": "Learn the basic of box model",
+      "complete": false,
+      "created": "2022-06-08T09:21:27.630Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 32,
+   "fields": {
+      "user": 1,
+      "title": "Flexbox Layout",
+      "description": "",
+      "complete": false,
+      "created": "2022-06-08T09:21:48.603Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 33,
+   "fields": {
+      "user": 1,
+      "title": "Using of units like rem, em and pixels",
+      "description": "",
+      "complete": false,
+      "created": "2022-06-08T09:22:15.970Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 34,
+   "fields": {
+      "user": 1,
+      "title": "Best practice of box sizing in css",
+      "description": "",
+      "complete": false,
+      "created": "2022-06-08T09:22:35.801Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 35,
+   "fields": {
+      "user": 2,
+      "title": "OSS # 1 AirFlow - Overview & Architecture",
+      "description": "",
+      "complete": true,
+      "created": "2022-07-18T01:12:40.565Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 36,
+   "fields": {
+      "user": 2,
+      "title": "OSS # 1 AirFlow - Features and Functionalities",
+      "description": "",
+      "complete": true,
+      "created": "2022-07-18T01:12:55.156Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 37,
+   "fields": {
+      "user": 2,
+      "title": "OSS # 1 AirFlow - Additional Informations",
+      "description": "- Additional information for their features and functionalities\r\n- Advantage and disadvantages\r\n- License terms and conditions\r\n- Check if have premium versions\r\n- Platform support for deployment\r\n- Read blogs about them",
+      "complete": false,
+      "created": "2022-07-18T01:15:23.125Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 38,
+   "fields": {
+      "user": 2,
+      "title": "Apache NiFi - Features and functionalities",
+      "description": "",
+      "complete": false,
+      "created": "2022-07-18T09:26:42.632Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 39,
+   "fields": {
+      "user": 2,
+      "title": "Apache NiFi - Overview",
+      "description": "",
+      "complete": true,
+      "created": "2022-07-19T03:07:30.210Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 40,
+   "fields": {
+      "user": 2,
+      "title": "Apache NiFi - Usage Documentations",
+      "description": "",
+      "complete": false,
+      "created": "2022-07-19T03:07:46.553Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 41,
+   "fields": {
+      "user": 2,
+      "title": "Apache NiFi - License",
+      "description": "",
+      "complete": true,
+      "created": "2022-07-19T03:08:03.570Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 42,
+   "fields": {
+      "user": 2,
+      "title": "Apache NiFi - Maintainability",
+      "description": "",
+      "complete": true,
+      "created": "2022-07-19T03:08:18.928Z"
+   }
+},
+{
+   "model": "base.task",
+   "pk": 43,
+   "fields": {
+      "user": 2,
+      "title": "Apache NiFi NEED UPDATE",
+      "description": "- ADD System Requirements\r\n- ADD Advantages & Disadvantages\r\n-",
+      "complete": true,
+      "created": "2022-07-19T03:44:12.720Z"
+   }
+}
+]
